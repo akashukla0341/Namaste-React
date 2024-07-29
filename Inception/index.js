@@ -12,7 +12,7 @@ import ReactDOM from 'react-dom/client'
 
 
 // const h1 = React.createElement("h1",{id:"heading"},"Hello From React")
-const h1 = <h1 id='heading'>Hello react from  jsx</h1>
+const h1 = <h1 id='heading' className='heading'>Hello react from  jsx</h1>
 console.log(h1)
 const root = ReactDOM.createRoot(document.querySelector("#root"))
 root.render(h1)
